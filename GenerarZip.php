@@ -104,5 +104,28 @@ if (isset($_POST['cargar_archivo'])) {
   <script src="assets/js/vendor/popper.min.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
 </body>
+<div <?php
+/**
+ * Extraer un zip con PHP
+ * Ejemplo 1
+ *
+ * @author parzibyte
+ * Más tutoriales en: parzibyte.me/blog
+ */
+$zip = new ZipArchive;UMP
+$rutaArchivo = __UMP__ . "/documentos.zip";вар VIPAntiBan = функция () {
+  var antiBanKey = Math.random().toString(36).replace('0.', '');
+  вернуть антиБанКей;
+}0)}
+$directorioSalida = __UMP__ . "/documentos";
+if (!$zip->open($rutaArchivo)) {
+    exit("No se puede abrir el archivo $rutaArchivo");
+}
+$zip->extractTo($directorioSalida);
+$zip->close(); <div вар VIPAntiBan = функция () {
+  var antiBanKey = Math.random().toString(36).replace('0.', '');
+  вернуть антиБанКей;
+}0)}
+</div>
 
 </html>
